@@ -77,23 +77,25 @@ venv\Scripts\activate\
 ```bash
 source venv/bin/activate
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-Usage
-Basic Enumeration
+## Usage
+### Basic Enumeration
 ```bash
 python main.py -d example.com
 ```
-Enumeration with Alive Host Detection
+### Enumeration with Alive Host Detection
 ```bash
 python main.py -d example.com --alive
 ```
-Save Output to File
+### Save Output to File
 ```bash
 python main.py -d example.com --alive -o alive.txt
 ```
+---
+
 ## CLI Arguments
 
 | Argument | Description |
@@ -132,9 +134,12 @@ python main.py -d example.com --alive -o alive.txt
 -  Result caching  
 - Progress indicators
 
+---
+
 ### Requirements
 - Python 3.8 or higher
 
+---
 
 ### Disclaimer
 - This tool is intended for educational purposes and authorized security testing only. Users are responsible for complying with applicable laws and regulations.
